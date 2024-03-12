@@ -23,4 +23,8 @@ public class Car {
     public void setEngineSize(int engineSize) {
         this.engineSize = engineSize;
     }
+
+    public  String toString() {
+        return "Car{" + "price=" + price + ", engineSize=" + engineSize + '}';
+    }
 }

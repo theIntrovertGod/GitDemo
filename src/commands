@@ -8,6 +8,15 @@ git status
 
 git ignore: git ignore are those files, which you do not want to track.
 
+git branch
+
+--branching:
+git branch: it will show your current branch + the available branches
+
+git branch engineSizeComparator
+-- branch name should also indicate what you are doing that branch
+
+
 
 * untracked file and modified file
 
@@ -17,3 +26,4 @@ git config -g user.name theIntrovertGod
 git config -g user.email ashish160204@gmail.com
 
 .gitignore: whatever files you want to ignore, add those in gitignore file
+
