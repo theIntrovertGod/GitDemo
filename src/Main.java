@@ -17,10 +17,10 @@ public class Main {
 //        }
         System.out.println("Car class demo");
 
-        Car c1= new Car(100000, 1200);
-        Car c2= new Car(200000, 1000);
-        Car c3= new Car(300000, 800);
-        Car c4= new Car(400000, 600);
+        Car c1= new Car(100000, 1200, 80);
+        Car c2= new Car(200000, 1000, 100);
+        Car c3= new Car(300000, 800, 120);
+        Car c4= new Car(400000, 600, 140);
         List<Car> carList = new ArrayList<>(Arrays.asList(c2, c1, c4, c3));
         carList.sort(new CarPriceComparator());
         System.out.println(carList);
