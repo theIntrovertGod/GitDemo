@@ -57,3 +57,7 @@ git config -g user.email ashish160204@gmail.com
 
 .gitignore: whatever files you want to ignore, add those in gitignore file
 
+--git remote
+git remote add origin <link>
+git remote add <key> <link>
+git push origin <branchName>
