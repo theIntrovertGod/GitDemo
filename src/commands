@@ -16,6 +16,35 @@ git branch: it will show your current branch + the available branches
 git branch engineSizeComparator
 -- branch name should also indicate what you are doing that branch
 
+git branch <branchName>
+
+git checkout -b <branchName>
+
+git checkout <branchName>
+
+if you want to merge a branch on current branch
+git merge <branchName>
+
+master to-> feature branch (FB)
+git checkout -b <branchName> : this will create the branch and move to the new branch
+
+is Git of any benefit if it remains in the local itself?
+
+done with version control, now another big part of git is collaboration
+
+for that we need something called as cloud repository or remote repository
+
+We can connect out local git repo with multiple remote repos
+In general its only 1 remote repo per local repo (people create multiple for backup)
+
+"name of remote repo[key]" => "link"
+
+the very first entry that you create for remote repo is origin,
+the name of the key is called origin
+
+key-> origin
+
+git remote add origin <link>
 
 
 * untracked file and modified file
