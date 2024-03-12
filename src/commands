@@ -1,0 +1,14 @@
+git init
+-- project level
+git config user.name theIntrovertGod
+git config user.email ashish160204@gmail.com
+git config user.name
+git config user.email
+git status
+
+* untracked file and modified file
+
+
+--globally for entire system
+git config -g user.name theIntrovertGod
+git config -g user.email ashish160204@gmail.com
